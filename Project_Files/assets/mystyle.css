@@ -1,0 +1,75 @@
+body {
+	background: #28a745;
+}
+
+#card1, #card3 {
+	font-weight: 100;
+	font-size: 1.5rem;
+}
+
+#card2{
+	color: green;
+	background: white;
+	border: 3px solid greenyellow;
+}
+
+a {
+	color: green;
+}
+a:hover {
+	color: greenyellow;
+	text-decoration: none;
+}
+
+.size {
+	font-size: 18px;
+}
+
+.anchor {
+	color: gray;
+}
+
+#mainNavbar .navbar-brand {
+	color: white;
+	padding-left: 3rem;
+	font-size: 1.5rem;
+	font-weight: 100; 
+}
+
+.navbar.scrolled{
+	background: #333;
+	transition: background 500ms;
+}
+
+#mainNavbar .nav-link:hover {
+	color: green;
+}
+
+.image {
+	border-radius: 50%;
+}
+
+#fb-link {
+	color: white;
+}
+
+#content {
+	min-height: 150px;
+	background: white;
+	color: green;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+	padding-right: 2rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+#mainNavbar {
+	border-bottom: 1px solid white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#fb-link:hover {
+	color: greenyellow;
+}
